@@ -1,0 +1,39 @@
+#myForm {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.search{
+    width: 500px;
+    padding: 12px 20px;
+    border-right: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-color: rgb(156, 159, 159);
+
+    /* 去除搜索框激活状态边框 */
+    outline: none;
+}
+.submit {
+    width: 100px;
+    background-color: #2c61f0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-color: #2c61f0;
+    color: white;
+    font-size: 16px;
+}
+
+.search:hover {
+    border-color: #686f81;
+}
+.search:focus {
+    border-color: #2c61f0;
+}
+.submit:hover {
+    background-color: rgb(19, 50, 202);
+}
